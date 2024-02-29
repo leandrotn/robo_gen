@@ -8,11 +8,7 @@ const botToken = '';  // Substitua com o token do seu bot
 const canalId = '';  // Substitua com o ID do canal
 
 const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent,
-  ],
+  intents: [0],
 });
 
 client.once('ready', () => {
