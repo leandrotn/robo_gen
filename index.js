@@ -4,8 +4,8 @@ const { Client, GatewayIntentBits } = require('discord.js');
 
 const url = 'https://api.discord.gx.games/v1/direct-fulfillment';  //api promocional discord
 const id = '1161769335442899024';  //id da promoção
-const botToken = 'MTE3NTkzNDMzNzMzNDY0ODk2NA.G_Oyjm.3oULMth-U3MYtMpjcDaqBF5lpSWH6UqquGfV0s';  // Substitua com o token do seu bot
-const canalId = '1191050870171914291';  // Substitua com o ID do canal
+const botToken = '';  // Substitua com o token do seu bot
+const canalId = '';  // Substitua com o ID do canal
 
 const client = new Client({
   intents: [
